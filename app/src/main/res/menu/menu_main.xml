@@ -1,0 +1,23 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.easyqrscanner.MainActivity">
+
+    <item
+        android:id="@+id/nav_scanned"
+        android:icon="@drawable/ic_drawer_empty0"
+        android:title="@string/scanned_title"/>
+    <!--<item
+        android:id="@+id/qrCameraFragment"
+        android:checked="true"
+        android:icon="@drawable/ic_drawer_qr"
+        android:title="@string/qr_title"/>-->
+    <item
+        android:id="@+id/nav_empty"
+        android:title="@string/qr_title"
+        android:icon="@drawable/ic_camera_0"/>
+    <item
+        android:id="@+id/nav_settings"
+        android:icon="@drawable/ic_drawer_sttings"
+        android:title="@string/settings_title"/>
+</menu>
